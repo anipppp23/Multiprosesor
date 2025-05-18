@@ -1,137 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" modified="2024-06-01T17:00:00.000Z" agent="BLACKBOXAI" etag="abcdefg123456" version="15.8.7" type="device">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram id="page-1" name="Multiprocessor Architectures Side by Side">
-    <mxGraphModel dx="1400" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="600" math="0" shadow="0">
+    <mxGraphModel dx="872" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="600" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-
-        <!-- Titles -->
-        <mxCell id="titleLeft" value="Asymmetric Multiprocessor Architecture (Asimetris)" style="text;html=1;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Helvetica;fontWeight=bold;" vertex="1" parent="1">
-          <mxGeometry x="50" y="10" width="550" height="30" as="geometry"/>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titleLeft" value="Asymmetric Multiprocessor Architecture (Asimetris)" style="text;html=1;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Helvetica;fontWeight=bold;" parent="1" vertex="1">
+          <mxGeometry x="50" y="10" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="titleRight" value="Symmetric Multiprocessor Architecture (Simetris)" style="text;html=1;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Helvetica;fontWeight=bold;" vertex="1" parent="1">
-          <mxGeometry x="750" y="10" width="550" height="30" as="geometry"/>
+        <mxCell id="titleRight" value="Symmetric Multiprocessor Architecture (Simetris)" style="text;html=1;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontFamily=Helvetica;fontWeight=bold;" parent="1" vertex="1">
+          <mxGeometry x="750" y="10" width="550" height="30" as="geometry" />
         </mxCell>
-
-        <!-- Asymmetric side components -->
-
-        <!-- CPU 1 -->
-        <mxCell id="cpu1" value="CPU 1" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#7aa6c2;strokeColor=#2a5c8c;fontSize=14;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="80" y="50" width="80" height="80" as="geometry"/>
+        <mxCell id="cpu1" value="CPU 1" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#7aa6c2;strokeColor=#2a5c8c;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="80" y="50" width="80" height="80" as="geometry" />
         </mxCell>
-        <!-- Memory 1 -->
-        <mxCell id="mem1" value="Memory 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9e79f;strokeColor=#b7950b;fontSize=14;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="80" y="140" width="100" height="60" as="geometry"/>
+        <mxCell id="mem1" value="Memory 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9e79f;strokeColor=#b7950b;fontSize=14;fontStyle=1;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="10" y="160" width="100" height="60" as="geometry" />
         </mxCell>
-        <!-- I/O 1 -->
-        <mxCell id="io1" value="I/O 1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#82e0aa;strokeColor=#229954;fontSize=14;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="90" y="220" width="80" height="60" as="geometry"/>
+        <mxCell id="io1" value="I/O 1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#82e0aa;strokeColor=#229954;fontSize=14;fontStyle=1;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="130" y="160" width="80" height="60" as="geometry" />
         </mxCell>
-
-        <!-- CPU 2 -->
-        <mxCell id="cpu2" value="CPU 2" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#7aa6c2;strokeColor=#2a5c8c;fontSize=14;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="300" y="50" width="80" height="80" as="geometry"/>
+        <mxCell id="cpu2" value="CPU 2" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#7aa6c2;strokeColor=#2a5c8c;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="300" y="50" width="80" height="80" as="geometry" />
         </mxCell>
-        <!-- Memory 2 -->
-        <mxCell id="mem2" value="Memory 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9e79f;strokeColor=#b7950b;fontSize=14;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="300" y="140" width="100" height="60" as="geometry"/>
+        <mxCell id="mem2" value="Memory 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9e79f;strokeColor=#b7950b;fontSize=14;fontStyle=1;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="240" y="160" width="100" height="60" as="geometry" />
         </mxCell>
-        <!-- I/O 2 -->
-        <mxCell id="io2" value="I/O 2" style="rhombus;whiteSpace=wrap;html=1;fillColor=#82e0aa;strokeColor=#229954;fontSize=14;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="310" y="220" width="80" height="60" as="geometry"/>
+        <mxCell id="io2" value="I/O 2" style="rhombus;whiteSpace=wrap;html=1;fillColor=#82e0aa;strokeColor=#229954;fontSize=14;fontStyle=1;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="350" y="160" width="80" height="60" as="geometry" />
         </mxCell>
-
-        <!-- CPU 3 -->
-        <mxCell id="cpu3" value="CPU 3" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#7aa6c2;strokeColor=#2a5c8c;fontSize=14;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="520" y="50" width="80" height="80" as="geometry"/>
+        <mxCell id="cpu3" value="CPU 3" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#7aa6c2;strokeColor=#2a5c8c;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="520" y="50" width="80" height="80" as="geometry" />
         </mxCell>
-        <!-- Memory 3 -->
-        <mxCell id="mem3" value="Memory 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9e79f;strokeColor=#b7950b;fontSize=14;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="520" y="140" width="100" height="60" as="geometry"/>
+        <mxCell id="mem3" value="Memory 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9e79f;strokeColor=#b7950b;fontSize=14;fontStyle=1;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="450" y="160" width="100" height="60" as="geometry" />
         </mxCell>
-        <!-- I/O 3 -->
-        <mxCell id="io3" value="I/O 3" style="rhombus;whiteSpace=wrap;html=1;fillColor=#82e0aa;strokeColor=#229954;fontSize=14;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="530" y="220" width="80" height="60" as="geometry"/>
+        <mxCell id="io3" value="I/O 3" style="rhombus;whiteSpace=wrap;html=1;fillColor=#82e0aa;strokeColor=#229954;fontSize=14;fontStyle=1;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="570" y="160" width="80" height="60" as="geometry" />
         </mxCell>
-
-        <!-- Connections CPU to Memory -->
-        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#34495e;endArrow=block;endFill=1;" edge="1" source="cpu1" target="mem1" parent="1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#34495e;endArrow=block;endFill=1;" parent="1" source="cpu1" target="mem1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#34495e;endArrow=block;endFill=1;" edge="1" source="cpu2" target="mem2" parent="1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#34495e;endArrow=block;endFill=1;" parent="1" source="cpu2" target="mem2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#34495e;endArrow=block;endFill=1;" edge="1" source="cpu3" target="mem3" parent="1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#34495e;endArrow=block;endFill=1;" parent="1" source="cpu3" target="mem3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- Connections CPU to I/O -->
-        <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#34495e;endArrow=block;endFill=1;" edge="1" source="cpu1" target="io1" parent="1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#34495e;endArrow=block;endFill=1;" parent="1" source="cpu1" target="io1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#34495e;endArrow=block;endFill=1;" edge="1" source="cpu2" target="io2" parent="1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="edge5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#34495e;endArrow=block;endFill=1;" parent="1" source="cpu2" target="io2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#34495e;endArrow=block;endFill=1;" edge="1" source="cpu3" target="io3" parent="1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="edge6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#34495e;endArrow=block;endFill=1;" parent="1" source="cpu3" target="io3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- Symmetric side components (shifted right by about 700px) -->
-
-        <!-- CPUs -->
-        <mxCell id="cpu1SMP" value="CPU 1" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#344d94;strokeColor=#0f1a35;fontSize=14;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="770" y="50" width="80" height="80" as="geometry"/>
+        <mxCell id="cpu1SMP" value="CPU 1" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#344d94;strokeColor=#0f1a35;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="830" y="50" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cpu2SMP" value="CPU 2" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#344d94;strokeColor=#0f1a35;fontSize=14;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="890" y="50" width="80" height="80" as="geometry"/>
+        <mxCell id="cpu2SMP" value="CPU 2" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#344d94;strokeColor=#0f1a35;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="985" y="50" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cpu3SMP" value="CPU 3" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#344d94;strokeColor=#0f1a35;fontSize=14;fontStyle=1;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="50" width="80" height="80" as="geometry"/>
+        <mxCell id="cpu3SMP" value="CPU 3" style="shape=ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#344d94;strokeColor=#0f1a35;fontSize=14;fontStyle=1;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="50" width="80" height="80" as="geometry" />
         </mxCell>
-
-        <!-- Shared Memory -->
-        <mxCell id="sharedMem" value="Shared Memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7dc6f;strokeColor=#b7950b;fontSize=16;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="885" y="140" width="150" height="80" as="geometry"/>
+        <mxCell id="sharedMem" value="Shared Memory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7dc6f;strokeColor=#b7950b;fontSize=16;fontStyle=1;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="950" y="180" width="150" height="80" as="geometry" />
         </mxCell>
-
-        <!-- Shared I/O -->
-        <mxCell id="sharedIO" value="Shared I/O" style="rhombus;whiteSpace=wrap;html=1;fillColor=#82c0aa;strokeColor=#2a6e45;fontSize=16;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="910" y="240" width="100" height="60" as="geometry"/>
+        <mxCell id="sharedIO" value="Shared I/O" style="rhombus;whiteSpace=wrap;html=1;fillColor=#82c0aa;strokeColor=#2a6e45;fontSize=16;fontStyle=1;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="975" y="280" width="100" height="60" as="geometry" />
         </mxCell>
-
-        <!-- Bus -->
-        <mxCell id="bus" value="" style="shape=line;strokeWidth=4;strokeColor=#344d94;" vertex="1" parent="1">
-          <mxGeometry x="760" y="120" width="400" height="10" as="geometry"/>
+        <mxCell id="bus" value="" style="shape=line;strokeWidth=4;strokeColor=#344d94;" parent="1" vertex="1">
+          <mxGeometry x="825" y="150" width="400" height="10" as="geometry" />
         </mxCell>
-
-        <!-- Connections CPUs to bus -->
-        <mxCell id="edgeCpu1Bus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#344d94;endArrow=none;" edge="1" source="cpu1SMP" target="bus" parent="1">
+        <mxCell id="edgeCpu1Bus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#344d94;endArrow=none;" parent="1" source="cpu1SMP" target="bus" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="120" as="targetPoint"/>
+            <mxPoint x="810" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edgeCpu2Bus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#344d94;endArrow=none;" edge="1" source="cpu2SMP" target="bus" parent="1">
+        <mxCell id="edgeCpu2Bus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#344d94;endArrow=none;" parent="1" source="cpu2SMP" target="bus" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="930" y="120" as="targetPoint"/>
+            <mxPoint x="930" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edgeCpu3Bus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#344d94;endArrow=none;" edge="1" source="cpu3SMP" target="bus" parent="1">
+        <mxCell id="edgeCpu3Bus" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#344d94;endArrow=none;" parent="1" source="cpu3SMP" target="bus" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1050" y="120" as="targetPoint"/>
+            <mxPoint x="1050" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-
-        <!-- Connection Bus to Shared Memory -->
-        <mxCell id="edgeBusMem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#344d94;endArrow=block;endFill=1;" edge="1" source="bus" target="sharedMem" parent="1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="edgeBusMem" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#344d94;endArrow=block;endFill=1;" parent="1" source="bus" target="sharedMem" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
-        <!-- Connection Shared Memory to Shared I/O -->
-        <mxCell id="edgeMemIO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#344d94;endArrow=block;endFill=1;" edge="1" source="sharedMem" target="sharedIO" parent="1">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="edgeMemIO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#344d94;endArrow=block;endFill=1;" parent="1" source="sharedMem" target="sharedIO" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-
+        <mxCell id="7TmTbgtsA1PNCpaND-98-2" value="BUS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="995" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
